@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(253, 221, 249);
+}
+
+nav{
+    height: 4.5rem;
+    width: 100%;
+    
+    box-shadow:5px 10px 18px rgb(239, 49, 138);
+    
+    background-color: rgb(241, 186, 248);
+}
+
+.logo{
+    max-height: 7.5rem;
+    max-width: 9.625rem;
+    margin-left: 45% ;
+    margin-top: 1.5rem;
+}
+
+h1{
+    margin: 58px 0 104px 16px ;
+}
+
+span{
+    color: darkorchid;
+}
+
+
+/* Product */
+
+.container{
+    height: 607px;
+    width: 1791px;
+    
+    margin: 0 auto;
+    border-radius: 23px 23px 17px 17px;
+
+    background-color: rgba(103, 14, 171, 0.163);
+}
+
+.rolo{
+    height: 64px;
+
+    border-radius: 23px 23px 0 0;
+    box-shadow: 0px 5px 8px rgba(71, 187, 241, 0.298);
+
+    background-color: rgba(2, 81, 150, 0.593);
+}
+
+.cards{
+    margin-top: 25px;
+    margin-left: 22px;
+
+    display: flex;
+    gap: 50px;
+}
+
+.card{
+    height: auto;
+    width: 267px;
+
+    border-radius: 35px;
+
+    background-color: rgba(244, 248, 248, 0.663);
+    box-shadow: 5px -2px 5px 5px rgba(141, 80, 245, 0.265);
+}
+
+.card .img{
+    margin: 32px auto;
+    margin-bottom: 13px;
+
+    height: 150px;
+    width: 246px;
+
+    border-radius: 30px;
+
+    background: black;
+}
+
+.card .text{
+    margin-top: 38px;
+    margin-left: 25px;
+}
+
+.card .text .title{
+    margin-bottom: 12px;
+
+    font-size: larger;
+}
+
+.card .text .description{
+    margin-left: 13px;
+
+    font-size: smaller;
+}
+
+#buy{
+    margin-top: 11px;
+    margin-bottom: 14px;
+    margin-left: 60%;
+    padding: 7px 17px;
+    
+    border: 1px solid rgba(0, 255, 128, 0.606);
+    border-radius: 10px;
+
+    background-color: snow;
+
+    cursor: pointer;
+}
+
+#buy:hover{
+    background-color: aquamarine;
+}
+
+#buy::selection{
+    background-color: crimson;
+}
+
+#buy:active{
+    background-color: crimson;
+    
+}
+
