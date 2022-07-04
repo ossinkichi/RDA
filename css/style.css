@@ -9,10 +9,10 @@ body{
 }
 
 .title{
-        margin-left: 1.15rem;
-    }
-    
-/* divisor */    
+    margin-left: 1.15rem;
+}
+
+    /* divisor */    
 .divider{
     background-color: rgb(210, 236, 210);
     height: 1.8px;
@@ -41,7 +41,9 @@ nav{
 
 #home{
     height: 30.5rem;
-    margin-top: 4.5rem ;
+    width: auto;
+    margin-top: 150px ;
+    margin-left: 120px;
 }
 
 
